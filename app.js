@@ -16,6 +16,9 @@ app.get("/works", (req,res)=>{
   res.sendFile(__dirname + "/views/works.html")
 })
 
+app.get("/gallery", (req,res)=>{
+  res.sendFile(__dirname + "/views/gallery.html")
+})
 app.use(function(req, res, next) {
     res.status(404).send('Lo sentimos, esta página no está en nuestra JorgeAgenda!!');
   });

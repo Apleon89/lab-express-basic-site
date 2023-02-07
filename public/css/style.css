@@ -28,6 +28,10 @@ nav a {
     color: white;
 }
 
+#at4{
+    color: yellow;
+}
+
 /* Global */
 
 
@@ -49,4 +53,40 @@ nav a {
 #subtitulo {
     padding-top: 100px;
     font-size: 1.5rem;
+}
+
+#sobreJorge{
+    padding-top: 40px;
+}
+
+#infoJorge{
+    margin: 0;
+    padding-top: 20px;
+}
+
+#listaJorge{
+    padding-top: 90px;
+    
+}
+
+#listaJorge li{
+    padding-top: 10px;
+}
+
+#trabajosJorge{
+    padding-top: 30px;
+}
+
+h5{
+    margin:0;
+}
+
+#toyota{
+    padding-top: 81px;
+}
+
+.pwords{
+    margin:0;
+    padding:10px 0;
+
 }
